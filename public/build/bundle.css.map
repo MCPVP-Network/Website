@@ -1,0 +1,14 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../../App.svelte",
+    "../../MainNav.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n\timport MainNav from './parts/MainNav.svelte';\n\n\texport let name;\n</script>\n\n<MainNav></MainNav>\n\n<main>\n\t<h1>Hello {name}!</h1>\n\t<p>Visit the <a href=\"https://svelte.dev/tutorial\">Svelte tutorial</a> to learn how to build Svelte apps.</p>\n</main>\n\n<style>\n\tmain {\n\t\ttext-align: center;\n\t\tpadding: 1em;\n\t\tmax-width: 240px;\n\t\tmargin: 0 auto;\n\t}\n\n\th1 {\n\t\tcolor: #ff3e00;\n\t\ttext-transform: uppercase;\n\t\tfont-size: 4em;\n\t\tfont-weight: 100;\n\t}\n\n\t@media (min-width: 640px) {\n\t\tmain {\n\t\t\tmax-width: none;\n\t\t}\n\t}\n</style>",
+    "<header>\n   <div class=\"container\">\n      <div class=\"two columns\"> \n         <h1>MCPVP</h1>\n      </div>\n      \n      <div id=\"nav\" class=\"twelve columns\">\n         <ul>\n            <li><a href=\"#\">HOME</a></li>\n            <li><a href=\"#\">PLAYERS</a></li>\n            <li><a href=\"#\">SERVERS</a></li>\n         </ul>\n      </div>\n   </div>\n</header>\n\n<style>\n    \n   header \n   {\n      background: rgb(0, 192, 192);\n   }\n\n   h1\n   {\n      color: white;\n      margin: 0px;\n   }\n   \n   #nav \n   {\n      margin: 0px;\n   }\n   \n   ul \n   {\n      margin-bottom: 14px;\n   }\n\n   #nav ul li \n   {\n      display: inline;\n      margin: 0 20px 0 0;\n      \n   }\n   \n   #nav a \n   {\n      text-decoration: none;\n      color: white;\n      font-weight: 900;\n   }\n   \n   #nav a:hover \n   {\n      color: rgb(230, 230, 230);\n   }\n\n</style>"
+  ],
+  "names": [],
+  "mappings": "AAcC,IAAI,eAAC,CAAC,AACL,UAAU,CAAE,MAAM,CAClB,OAAO,CAAE,GAAG,CACZ,SAAS,CAAE,KAAK,CAChB,MAAM,CAAE,CAAC,CAAC,IAAI,AACf,CAAC,AAED,EAAE,eAAC,CAAC,AACH,KAAK,CAAE,OAAO,CACd,cAAc,CAAE,SAAS,CACzB,SAAS,CAAE,GAAG,CACd,WAAW,CAAE,GAAG,AACjB,CAAC,AAED,MAAM,AAAC,YAAY,KAAK,CAAC,AAAC,CAAC,AAC1B,IAAI,eAAC,CAAC,AACL,SAAS,CAAE,IAAI,AAChB,CAAC,AACF,CAAC;ACdC,MAAM,8BACN,CAAC,AACE,UAAU,CAAE,IAAI,CAAC,CAAC,CAAC,GAAG,CAAC,CAAC,GAAG,CAAC,AAC/B,CAAC,AAED,EAAE,8BACF,CAAC,AACE,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,GAAG,AACd,CAAC,AAED,IAAI,8BACJ,CAAC,AACE,MAAM,CAAE,GAAG,AACd,CAAC,AAED,EAAE,8BACF,CAAC,AACE,aAAa,CAAE,IAAI,AACtB,CAAC,AAED,mBAAI,CAAC,EAAE,CAAC,EAAE,eACV,CAAC,AACE,OAAO,CAAE,MAAM,CACf,MAAM,CAAE,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC,CAAC,AAErB,CAAC,AAED,mBAAI,CAAC,CAAC,eACN,CAAC,AACE,eAAe,CAAE,IAAI,CACrB,KAAK,CAAE,KAAK,CACZ,WAAW,CAAE,GAAG,AACnB,CAAC,AAED,mBAAI,CAAC,gBAAC,MAAM,AACZ,CAAC,AACE,KAAK,CAAE,IAAI,GAAG,CAAC,CAAC,GAAG,CAAC,CAAC,GAAG,CAAC,AAC5B,CAAC"
+}
